@@ -26,3 +26,21 @@ National Polytechnic Institute
   <textarea name="message" placeholder="Test Message"></textarea>
   <button type="submit">Send Test</button>
 </form>
+
+<ul>
+{% if site.twitter_username %}
+  <li>
+    <a href="https://twitter.com/{{ site.twitter_username }}">
+      <i class="fa fa-twitter"></i> Twitter
+    </a>
+  </li>
+{% endif %}
+
+{% if site.instagram_username %}
+  <li>
+    <a href="https://www.instagram.com/{{ site.instagram_username }}">
+      <i class="fa fa-instagram"></i> Instagram
+    </a>
+  </li>
+{% endif %}
+</ul>
