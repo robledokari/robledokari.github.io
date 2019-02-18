@@ -20,11 +20,13 @@ National Polytechnic Institute
 * Javascript
 * MySQL
 
-# Projects
+## Projects
 
 
 
 ## Contact
+
+### Send a message
 
 <form method="POST" action="https://formspree.io/robledokari@gmail.com">
   <input type="email" name="email" placeholder="Your email">  
@@ -34,7 +36,7 @@ National Polytechnic Institute
   <button type="submit">Send Test</button>  
 </form>
 
-## Social media 
+### Social media 
 
 <ul>
 {% if site.twitter_username %}
