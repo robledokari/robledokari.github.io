@@ -1,8 +1,8 @@
-# About
+## About
 
 Hi! My name is Karina Robledo Hernández. I'm an software developer in Front-End and Android Dev. 
 
-# Credentials
+## Credentials
 
 B.S. in Computer Science Engineer  
 Instituto Politécnico Nacional  
@@ -10,7 +10,7 @@ National Polytechnic Institute
 2013 - 2017
 
 
-# Toolbox
+## Toolbox
 
 * Java
 * Android
@@ -24,13 +24,17 @@ National Polytechnic Institute
 
 
 
-# Contact
+## Contact
 
 <form method="POST" action="https://formspree.io/robledokari@gmail.com">
   <input type="email" name="email" placeholder="Your email">  
+  
   <textarea name="message" placeholder="Test Message"></textarea>  
+  
   <button type="submit">Send Test</button>  
 </form>
+
+## Social media 
 
 <ul>
 {% if site.twitter_username %}
